@@ -98,7 +98,8 @@ def consolidated_report_print(report_info):
     that prints report about depataments from dict
     """
     print(
-        "Департамент: Численность  Мин. зарплата" "  Макс. зарплата  Средняя зарплата"
+        "Департамент: Численность  Мин. зарплата"
+        "  Макс. зарплата  Средняя зарплата"
     )
     for key, value in report_info.items():
         count_ = value.get("count")
@@ -114,7 +115,8 @@ def consolidated_report_to_save_csv(report_info):
     """
     with open("./cons_report.csv", "w+", encoding="utf-8") as f:
         f.write(
-            "Департамент;Численность;Мин.зарплата;" "Макс.зарплата;Средняя зарплата\n"
+            "Департамент;Численность;Мин.зарплата;"
+            "Макс.зарплата;Средняя зарплата\n"
         )
         for key, value in report_info.items():
             count_ = value.get("count")

@@ -1,8 +1,0 @@
-__pycache__/
-.env
-venv
-.idea/
-cons_report.csv
-Corp_Summary.csv
-miniconda.exe
-test.ipynb

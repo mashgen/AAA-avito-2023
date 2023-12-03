@@ -1,0 +1,13 @@
+$ python -m pytest -v tests/test_decode.py
+============================= test session starts =============================
+platform win32 -- Python 3.11.5, pytest-7.4.0, pluggy-1.0.0 -- C:\Users\Maria\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\�����\Documents\AAA-avito-2023\4_hw
+plugins: anyio-3.5.0
+collecting ... collected 3 items
+
+tests/test_decode.py::test_decode[... --- ...-SOS] PASSED                [ 33%]
+tests/test_decode.py::test_decode[-- .- .-. .. .--MARIA] PASSED          [ 66%]
+tests/test_decode.py::test_decode[-] PASSED                              [100%]
+
+============================== 3 passed in 0.02s ==============================

@@ -14,3 +14,13 @@ python -m pytest -v tests/test_decode.py
 
 ## issue 3
 
+```commandline
+python -m unittest -v tests/unit_OHC.py
+```
+
+
+## issue 4
+
+```commandline
+python -m pytest -v tests/pytest_OHC.py
+```

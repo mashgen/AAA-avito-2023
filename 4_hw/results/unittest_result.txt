@@ -1,0 +1,12 @@
+$python -m unittest -v tests/unit_OHC.py
+
+test_empty_input (tests.unit_OHC.TestOneHotEncoder.test_empty_input) ... ok
+test_incorrect_input (tests.unit_OHC.TestOneHotEncoder.test_incorrect_input) ... ok
+test_multiple_words_as_args (tests.unit_OHC.TestOneHotEncoder.test_multiple_words_as_args) ... ok
+test_multiple_words_as_list (tests.unit_OHC.TestOneHotEncoder.test_multiple_words_as_list) ... ok
+test_one_word (tests.unit_OHC.TestOneHotEncoder.test_one_word) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
